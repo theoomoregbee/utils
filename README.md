@@ -3,12 +3,14 @@ Just my js util functions
 
 ## Phantomjs Scrapper
 
-Opens links within an IFrame for easy access to scrape iframe content
+see on https://phantomjs.org/download.html for installation
 
-Open `phantomjs-scrapper/index.js` update the `links` array with links to be loaded for scraping. Then update `onPageLoaded` function with your js functions to scrape. Then run it like so:
+Opens URLs that redirects to another URL within an IFrame and get the final redirected URL
+
+Open `phantomjs-scrape-redirect-urls/index.js` update the `urls` array with links to be loaded for scraping. Then update `onPageLoad` function with your js functions to scrape. Then run it like so:
 
 ```shell
-node phantomjs-scrapper
+phantomjs phantomjs-scrape-redirect-url/index.js
 ```
 
 see: https://phantomjs.org/page-automation.html for more

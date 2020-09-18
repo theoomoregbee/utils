@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/theoomoregbee/utils/issues"
   },
-  "homepage": "https://github.com/theoomoregbee/utils#readme"
+  "homepage": "https://github.com/theoomoregbee/utils#readme",
+  "dependencies": {
+    "webpage": "^0.3.0"
+  }
 }
