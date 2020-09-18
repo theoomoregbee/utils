@@ -1,0 +1,26 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Just JS utils functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoomoregbee/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "js",
+    "nodejs",
+    "functions",
+    "playground"
+  ],
+  "author": "Theophilus Omoregbee <theo4u@ymail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoomoregbee/utils/issues"
+  },
+  "homepage": "https://github.com/theoomoregbee/utils#readme"
+}
