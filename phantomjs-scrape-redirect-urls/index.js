@@ -2,7 +2,7 @@ const page = require('webpage').create();
 
 const urlsWithRedirect = [];
 
-const hostUrls = []
+const settledUrls = []
 
 /**
  * run you js codes to be processed after the page is loaded 
@@ -14,7 +14,7 @@ function onPageLoad(page) {
     return document.location.toString()
   });
   console.log(landedURL);
-  hostUrls.push(landedURL)
+  settledUrls.push(landedURL)
 }
 
 
@@ -22,7 +22,7 @@ function onPageLoad(page) {
 function next() {
   const url = urlsWithRedirect.shift();
   if (!url) {
-    console.log('\n\n\nHosts found \n', hostUrls.join('\n'))
+    console.log('\n\n\nHosts found \n', settledUrls.join('\n'))
     phantom.exit()
   }
 
