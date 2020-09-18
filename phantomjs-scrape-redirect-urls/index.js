@@ -17,12 +17,16 @@ function onPageLoad(page) {
   settledUrls.push(landedURL)
 }
 
+function onCompleted() {
+  console.log('\n\n\nHosts found \n', settledUrls.join('\n'))
+}
+
 
 
 function next() {
   const url = urlsWithRedirect.shift();
   if (!url) {
-    console.log('\n\n\nHosts found \n', settledUrls.join('\n'))
+    onCompleted()
     phantom.exit()
   }
 
