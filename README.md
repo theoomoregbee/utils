@@ -1,5 +1,5 @@
 # utils
-Just my js util functions/playgroung
+Just my js util functions/playground
 
 ## Phantomjs Scrapper
 
